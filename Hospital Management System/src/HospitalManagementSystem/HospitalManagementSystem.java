@@ -24,7 +24,7 @@ public class HospitalManagementSystem {
 			Patient patient = new Patient(connection, scanner);
 			Doctor doctor = new Doctor(connection);
 			while(true) {
-				System.out.println(" HOPITAL MANAGEMENT SYSTEM ");
+				System.out.println(" WELCOME TO HOPITAL MANAGEMENT SYSTEM ");
 				System.out.println("1. Add Patient");
 				System.out.println("2. View Patients");
 				System.out.println("3. View Doctors");
